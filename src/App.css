@@ -1,0 +1,49 @@
+body {
+  background-color: aquamarine;
+}
+
+.app {
+  padding: 20px;
+  background-color: white;
+  min-height: 100vh;
+  width: 400px;
+  margin: 20px auto;
+  }
+
+.crossed {
+  text-decoration: line-through 4px rgb(134, 10, 10);
+  background-color: rgb(169, 161, 161);
+  -webkit-text-decoration-line: line-through;
+  -webkit-text-decoration-color: red;
+  -webkit-text-decoration-thickness: 2px;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  border-radius: 10px;
+ }
+
+ #btnAdd {
+width: 80%;
+padding: 10px;
+border-radius: 5px;
+background-color: green;
+} 
+
+#btnDelete {
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: red;
+  font-size: 15px;
+  }
+
+  input {
+    idth: 80%;
+    padding: 10px;
+    border-radius: 5px;  
+  }
